@@ -11,7 +11,7 @@
 ## Description <a name="description"></a>
 This repository is the solution by *Anton Drasbæk Schiønning (202008161)* to assignment 1 in the course "Language Analytics" at Aarhus University.
 
-It sets out to conduct a lingustic analysis on the [USECorpus dataset](https://www.engelska.uu.se/research/english-language/electronic-resources/use/). This dataset contains a collection of essays from the English department at Uppsala University in Sweden. This lingustic analysis is set up to utilize a [spaCy model](https://spacy.io/models) and extract the following information for each text in the corpus:
+It sets out to conduct a lingustic analysis on the [USECorpus dataset](https://www.engelska.uu.se/research/english-language/electronic-resources/use/). This dataset contains a collection of essays from the English department at Uppsala University in Sweden. For more information, check the readme in the `in` directory. This lingustic analysis is set up to utilize a [spaCy model](https://spacy.io/models) and extract the following information for each text in the corpus:
 * Relative frequency counts of **nouns**, **verbs**, **adjectives** and **adverbs** per 10K words in the text.
 * The number of unique **persons**, **locations** and **organizations** in the text.
 </br></br>
